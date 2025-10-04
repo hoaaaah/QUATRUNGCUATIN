@@ -136,9 +136,10 @@ if (customText) {
     popupMessages = customText.split(',').map(msg => msg.trim()).filter(msg => msg.length > 0);
 } else {
     popupMessages = [
-        "Trăng rằm sáng tỏ, tình anh dành cho em cũng sáng như thế. Chúc em Trung Thu an lành và hạnh phúc bên anh mãi mãi 💞.",
+        "Trăng rằm sáng tỏ,  tin dành cho linh cũng sáng như thế. Chúc khanh linh Trung Thu an lành và hạnh phúc bên ai do mãi mãi 💞.",
         "Trung Thu có trăng, có đèn lồng, và có em – niềm vui lớn nhất trong đời anh 🌙✨.",
-        "Anh chẳng cần bánh nướng, bánh dẻo, chỉ cần em bên cạnh là Trung Thu đã trọn vẹn rồi 🍂💕."
+        "Anh chẳng cần bánh nướng, bánh dẻo, chỉ cần em bên cạnh là Trung Thu đã trọn vẹn rồi 🍂💕
+        .khanhlinh."
     ];
 }
 
